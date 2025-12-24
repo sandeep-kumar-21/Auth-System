@@ -6,8 +6,8 @@ A modern, scalable Full Stack MERN application featuring secure authentication, 
 
 ![alt text](image-4.png)
 ![alt text](image-3.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](image-2 copy.png)
+![alt text](image.png)
 
 
 🛠️ Tech Stack

@@ -4,6 +4,7 @@ PS D:\Off - campus job\Assignment Project\Auth-system\server> npm run dev
 > server@1.0.0 dev
 > nodemon server.js
 
+
 [nodemon] 3.1.11
 [nodemon] to restart at any time, enter `rs`
 [nodemon] watching path(s): *.*
