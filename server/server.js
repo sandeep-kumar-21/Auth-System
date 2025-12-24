@@ -9,15 +9,7 @@ connectDB();
 
 const app = express();
 
-const allowedOrigins = [
-  "https://auth-system-beige.vercel.app", 
-  "http://localhost:5173"
-];
-
-app.use(cors({
-  origin: allowedOrigins,
-  credentials: true 
-}));
+app.use(cors());
 
 app.use(express.json({ extended: false }));
 
