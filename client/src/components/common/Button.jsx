@@ -1,9 +1,10 @@
 const Button = ({ children, onClick, type = 'button', variant = 'primary', className = '' }) => {
-    const baseStyle = "px-4 py-2 rounded font-medium transition duration-200 focus:outline-none";
+    const baseStyle = "px-5 py-2.5 rounded-xl font-semibold transition-all duration-300 focus:outline-none transform active:scale-95 flex items-center justify-center";
+    
     const variants = {
-        primary: "bg-blue-600 text-white hover:bg-blue-700",
-        danger: "bg-red-500 text-white hover:bg-red-600",
-        secondary: "bg-gray-200 text-gray-800 hover:bg-gray-300"
+        primary: "bg-gradient-to-r from-indigo-600 to-violet-600 text-white hover:shadow-lg hover:shadow-indigo-500/30 hover:-translate-y-0.5 border border-transparent",
+        danger: "bg-gradient-to-r from-rose-500 to-red-600 text-white hover:shadow-lg hover:shadow-red-500/30 hover:-translate-y-0.5",
+        secondary: "bg-white text-slate-700 border border-slate-200 hover:bg-slate-50 hover:border-slate-300 hover:shadow-md"
     };
 
     return (

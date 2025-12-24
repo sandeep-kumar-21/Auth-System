@@ -4,18 +4,11 @@ A modern, scalable Full Stack MERN application featuring secure authentication, 
 
 📸 Screenshots
 
-![alt text](image.png)
+![alt text](image-4.png)
+![alt text](image-3.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
-![alt text](image-3.png)
 
-Add a screenshot of your Dashboard here to showcase the UI.
-
-🔗 Live Demo & Repo
-
-GitHub Repo: [Insert Your Repo Link Here]
-
-Live Demo: (Optional: Add Vercel/Render link if deployed)
 
 🛠️ Tech Stack
 
@@ -121,14 +114,5 @@ http://localhost:5173
   /models        -> Database Schemas
   /routes        -> API Endpoints
   /middleware    -> Auth & Error Handling
-
-
-🛡️ Scalability Note
-
-Please refer to SCALABILITY.md for a detailed breakdown of how this application can be scaled for production.
-
-
-### Note for Postman
-"After logging in, please copy the token from the response and paste it into the Authorization > Bearer Token section for the Task API requests."
 
 Author: Sandeep Kumar
