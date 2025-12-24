@@ -9,7 +9,16 @@ connectDB();
 
 const app = express();
 
-app.use(cors());
+const allowedOrigins = [
+  "https://my-app-frontend.vercel.app", 
+  "http://localhost:5173"
+];
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true 
+}));
+
 app.use(express.json({ extended: false }));
 
 app.use('/api/auth', require('./routes/authRoutes'));

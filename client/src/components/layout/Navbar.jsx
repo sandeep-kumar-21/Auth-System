@@ -55,7 +55,7 @@ const Navbar = ({ toggleSidebar }) => {
                         </div>
                         
                         {/* Gradient Avatar */}
-                        <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-500 to-violet-500 text-white flex items-center justify-center font-bold shadow-lg shadow-indigo-500/20 ring-2 ring-white group-hover:ring-indigo-100 transition">
+                        <div className="w-10 h-10 rounded-full bg-liner-to-tr from-indigo-500 to-violet-500 text-white flex items-center justify-center font-bold shadow-lg shadow-indigo-500/20 ring-2 ring-white group-hover:ring-indigo-100 transition">
                             {getInitials(user?.name)}
                         </div>
                         
