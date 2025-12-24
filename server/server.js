@@ -10,7 +10,7 @@ connectDB();
 const app = express();
 
 const allowedOrigins = [
-  "https://my-app-frontend.vercel.app", 
+  "https://auth-system-beige.vercel.app", 
   "http://localhost:5173"
 ];
 
